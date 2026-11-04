@@ -13,3 +13,55 @@
   --blue-700: hsl(228, 99%, 58%);
   --font-inter: "Inter", sans-serif;
 }
+
+* {
+    font-family: var(--font-inter);
+}
+
+.text-blue-200 {
+  color: var(--blue-200);
+}
+
+.text-blue-400 {
+  color: var(--blue-400);
+}
+
+.text-blue-600 {
+  color: var(--blue-600);
+}
+
+.text-blue-700 {
+  color: var(--blue-700);
+}
+
+.bg-blue-200 {
+  background-color: var(--blue-200);
+}
+
+.bg-blue-400 {
+  background-color: var(--blue-400);
+}
+
+.bg-blue-600 {
+  background-color: var(--blue-600);
+}
+
+.bg-blue-700 {
+  background-color: var(--blue-700);
+}
+
+.border-blue-200 {
+  border-color: var(--blue-200) !important;
+}
+
+.border-blue-400 {
+  border-color: var(--blue-400) !important;
+}
+
+.border-blue-600 {
+  border-color: var(--blue-600) !important;
+}
+
+.border-blue-700 {
+  border-color: var(--blue-700) !important;
+}
