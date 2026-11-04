@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/inter/inter-variable.woff2") format("woff2");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --blue-200: hsl(224, 100%, 95%);
+  --blue-400: hsl(220, 100%, 64%);
+  --blue-600: hsl(228, 100%, 60%);
+  --blue-700: hsl(228, 99%, 58%);
+  --font-inter: "Inter", sans-serif;
+}
