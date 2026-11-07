@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,36 +27,44 @@
     ></script>
     <title>Frontend Mentor | Grid landing page</title>
   </head>
-  <body>
-    <header>
+  <body class="bg-blue-600">
+    <header class="navbar p-0 z-1">
       <!-- Nav -->
-      <div>
-        <p>
-          <span></span>
+      <div class="container-fluid gx-5 py-3 bg-blue-600 border-bottom border-1 border-blue-400">
+        <a href="#" class="navbar-brand fs-6 text-blue-200 fw-medium">
+          <span class="d-inline-block circle-length bg-light rounded-circle"></span>
           Bridge Collective
-        </p>
-        <button class="nav-toggle">
-          <img class=".icon-open" src="./assets/images/icon-menu.svg" alt="" />
+        </a>
+        <button 
+          type="button"
+          class="btn nav-toggle"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+          aria-controls="mainMenu"
+          aria-expanded="false"
+          aria-label="Menu">
+          <img class="icon-open" src="./assets/images/icon-menu.svg" alt="" />
           <img
-            class=".icon-close"
+            class="icon-close"
             src="./assets/images/icon-close.svg"
             alt=""
           />
         </button>
+
         <!-- Menu panel — hidden until the hamburger is activated -->
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Our Work</li>
-            <li>Partners</li>
-            <li>Annual Report</li>
-            <li>Donate</li>
+        <nav class="collapse navbar-collapse position-absolute position-lg-fixed header-distance start-0 bottom-lg-0 w-100 text-center text-lg-end z-n1" id="mainMenu">
+          <ul class="navbar-nav col-lg-3 h-100 py-5 pt-lg-4 pe-lg-5 ms-lg-auto bg-blue-600">
+            <li class="nav-item"><a href="#" class="nav-link text-blue-200 fs-5 fw-medium link-underline-light pb-0">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-blue-200 fs-5 fw-medium link-underline-light pb-0">Our Work</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-blue-200 fs-5 fw-medium link-underline-light pb-0">Partners</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-blue-200 fs-5 fw-medium link-underline-light pb-0">Annual Report</a></li>
+            <li class="nav-item"><a href="#" class="nav-link text-blue-200 fs-5 fw-medium link-underline-light pb-0 ">Donate</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <main>
+    <main class="">
       <!-- Hero -->
       <section aria-labelledby="pageTitle">
         <h1 id="pageTitle">A classroom for every child.</h1>
