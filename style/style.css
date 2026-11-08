@@ -7,7 +7,6 @@
 }
 
 :root {
-  --blue-200: hsl(224, 100%, 95%);
   --blue-400: hsl(220, 100%, 64%);
   --blue-600: hsl(228, 100%, 60%);
   --blue-700: hsl(228, 99%, 58%);
@@ -35,9 +34,6 @@ h6, .h6 {
 .flex-1 {
   flex: 1 !important;
 }
-.text-blue-200 {
-  color: var(--blue-200);
-}
 .text-blue-400 {
   color: var(--blue-400);
 }
@@ -47,9 +43,6 @@ h6, .h6 {
 .text-blue-700 {
   color: var(--blue-700);
 }
-.bg-blue-200 {
-  background-color: var(--blue-200);
-}
 .bg-blue-400 {
   background-color: var(--blue-400);
 }
@@ -58,9 +51,6 @@ h6, .h6 {
 }
 .bg-blue-700 {
   background-color: var(--blue-700);
-}
-.border-blue-200 {
-  border-color: var(--blue-200) !important;
 }
 .border-blue-400 {
   border-color: var(--blue-400) !important;
